@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>404-Section | GreatFrontEnd Projects</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="img/favicon.ico" sizes="any" />
+  </head>
+  <body class="h-screen bg-gray-200 flex lg:items-center">
+    <!-- Outer wrapper with background, default to Mobile layout, md: tablet and lg: desktop -->
+    <div
+      class="w-full h-[85%] mt-2 mx-4 lg:m-0 md:m-2 max-w-[1280px] md:h-[98%] md:w-[98%] lg:w-full lg:h-full bg-gray-200 rounded-md lg:shadow-lg shadow-none lg:border-8 border-0 lg:border-gray-200 relative overflow-hidden"
+    >
+      <!-- Background image -->
+      <img
+        src="./img/abstract-background.jpg"
+        alt="background waves"
+        class="absolute inset-0 w-full h-full object-cover opacity-80"
+      />
+
+      <!-- Content wrapper, lg:Desktop, md:Tablet & sm:Mobile -->
+      <div class="relative z-10 flex items-center h-full">
+        <div class="p-6 sm:p-10 lg:p-16 max-w-md sm:max-w-xl lg:max-w-2xl">
+          <h5
+            class="text-indigo-700 font-medium mb-3 sm:mb-4 text-sm sm:text-base"
+          >
+            Not found
+          </h5>
+          <h1
+            class="text-4xl sm:text-4xl lg:text-5xl font-semibold text-neutral-800 mb-4 sm:mb-6"
+          >
+            We can’t find the page
+          </h1>
+          <p
+            class="text-base sm:text-lg font-normal text-neutral-600 mb-10 sm:mb-16"
+          >
+            Sorry, the page you are looking for doesn't exist or has been moved.
+          </p>
+          <button
+            class="w-full sm:w-auto bg-indigo-700 hover:bg-indigo-800 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-[3px] text-sm sm:text-base"
+          >
+            Back to Home
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
